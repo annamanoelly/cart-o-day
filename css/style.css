@@ -2,8 +2,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height:90vh;
-    background-image:url("kitty.webp");
+    height:80vh;
+    background-image:url("flamengo.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -21,7 +21,7 @@ body {
 
 .birthdayCard:hover {
     transform: perspective(2500px) rotate(5deg);
-    box-shadow: inset 100px 100px 100px rgba(146, 37, 106, 0.15), 0 10px 100px rgba(0,0,0,0.3);
+    box-shadow: inset 100px 100px 100px rgba(170, 21, 21, 0.258), 0 10px 100px rgba(205, 8, 8, 0.225);
 }
 
 .birthdayCard:hover .cardFront {
@@ -58,7 +58,7 @@ body {
     height:350px;
     overflow: hidden;
     transform-origin: left;
-    box-shadow: inset 100px 100px 100px rgba(0,0,0,.13), 30px 0 50px rgba(0,0,0,0.1);
+    box-shadow: inset 100px 100px 100px rgba(195, 27, 27, 0.222), 30px 0 50px rgba(193, 31, 31, 0.233);
     transition: .4s;
 }
 
@@ -110,28 +110,28 @@ body {
 }
   
 .decorations:before {
-    border-top: 40px solid #f15bb5;
+    border-top: 40px solid #c71010;
     top:297px;
     left:210px;
     transform: rotate(-5deg);
 }
   
 .decorations:after{
-    border-top: 40px solid #f4d35e;
+    border-top: 40px solid #070707;
     top:288px;
     left:260px;
     transform: rotate(-17deg);
 }
 
 .decorationsTwo:before {
-    border-top: 40px solid #00f5d4;
+    border-top: 40px solid #c71010;
     top:268px;
     left:315px;
     transform: rotate(-30deg);
 }
   
 .decorationsTwo:after, .decorationsThree:after {
-    border-top: 40px solid #9b5de5;
+    border-top: 40px solid #070707;
     top:238px;
     left:355px;
     transform: rotate(-40deg);
@@ -145,7 +145,7 @@ body {
 }
   
 .decorationsThree:before {
-    border-top: 40px solid #00bbf9;
+    border-top: 40px solid #c71010;
     top:268px;
     left:315px;
     transform: rotate(-30deg);
@@ -225,7 +225,7 @@ body {
     z-index:-1;
     left:0;
     top:0;
-    box-shadow: inset 100px 20px 100px rgba(229, 5, 218, 0.2);
+    box-shadow: inset 100px 20px 100px rgba(198, 6, 6, 0.248);
 }
   
 .inside-text {

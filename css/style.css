@@ -21,7 +21,7 @@ body {
 
 .birthdayCard:hover {
     transform: perspective(2500px) rotate(5deg);
-    box-shadow: inset 100px 100px 100px rgba(170, 21, 21, 0.258), 0 10px 100px rgba(205, 8, 8, 0.225);
+    box-shadow: inset 100px 100px 100px rgba(23, 33, 211, 0.258), 0 10px 100px rgba(23,33,211,0.258);
 }
 
 .birthdayCard:hover .cardFront {
@@ -58,7 +58,7 @@ body {
     height:350px;
     overflow: hidden;
     transform-origin: left;
-    box-shadow: inset 100px 100px 100px rgba(195, 27, 27, 0.222), 30px 0 50px rgba(193, 31, 31, 0.233);
+    box-shadow: inset 100px 100px 100px rgba(23, 33, 211, 0.258), 0 10px 100px rgba(23,33,211,0.258);
     transition: .4s;
 }
 
@@ -110,28 +110,28 @@ body {
 }
   
 .decorations:before {
-    border-top: 40px solid #c71010;
+    border-top: 40px solid #522eae;
     top:297px;
     left:210px;
     transform: rotate(-5deg);
 }
   
 .decorations:after{
-    border-top: 40px solid #070707;
+    border-top: 40px solid #0fcf2c;
     top:288px;
     left:260px;
     transform: rotate(-17deg);
 }
 
 .decorationsTwo:before {
-    border-top: 40px solid #c71010;
+    border-top: 40px solid #d820cc;
     top:268px;
     left:315px;
     transform: rotate(-30deg);
 }
   
 .decorationsTwo:after, .decorationsThree:after {
-    border-top: 40px solid #070707;
+    border-top: 40px solid #dce017;
     top:238px;
     left:355px;
     transform: rotate(-40deg);
@@ -145,7 +145,7 @@ body {
 }
   
 .decorationsThree:before {
-    border-top: 40px solid #c71010;
+    border-top: 40px solid #522eae;
     top:268px;
     left:315px;
     transform: rotate(-30deg);
@@ -225,9 +225,9 @@ body {
     z-index:-1;
     left:0;
     top:0;
-    box-shadow: inset 100px 20px 100px rgba(198, 6, 6, 0.248);
+    box-shadow: inset 100px 20px 100px  rgba(23, 33, 211, 0.258);
 }
-  
+ 
 .inside-text {
     position: relative;
     top:-160px;
